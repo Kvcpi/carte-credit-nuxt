@@ -318,4 +318,4 @@ const validateCardHolder = () => {
 const isFormValid = computed(() => {
   return cardNumber.value.length === 16 && cardHolder.value.trim().length >= 3 && expiryDate.value.length === 5 && cvv.value.length === 3
 })
-</script> 
+</script>
